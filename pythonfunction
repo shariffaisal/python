@@ -1,0 +1,26 @@
+def cricket():
+	print("i like to play cricket")
+	print("i like to play tape ball")
+	print("i like to ball and bat as well")
+	
+def hiking():
+	print("i like to go on hiking")
+	print(" i like to hiking 5 miles")
+	print("i like to different places")
+
+def drive():
+	print("i like to go on drive")
+	print("i like to drive on fall specially")
+	print("i like to see different state")
+
+guess_hobby = input("guess my hobby:\n")	
+
+if guess_hobby =='Cricket':
+	cricket()
+elif guess_hobby == 'Hiking':
+	hiking()
+elif guess_hobby == 'Drive':
+	drive()
+
+else:
+	print("u miss my hobby")
